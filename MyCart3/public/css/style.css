@@ -1,0 +1,92 @@
+
+
+.wrap-out{
+  width: 1000px;margin:20px auto 0;
+}
+.wrap-nav{
+    margin-bottom: 10px;
+}
+.wrap-in{
+  margin-top: 20px;
+}
+.hide-div{
+    display:none;
+}
+.goods{
+    margin-top:6px;
+}
+.goods>div{
+    float: left;position: relative; 
+    margin:5px;padding:5px;width: 240px;height: 240px;
+    border:1px solid #ccc;
+}
+.goods>div:hover{
+    box-shadow: 0 0 3px 3px #eee;
+    transition-duration:.2s;
+}
+.price{
+    position:absolute;bottom:30px;
+    height:20px;line-height: 20px;text-indent: 1em;
+}
+.name{
+    position:absolute;bottom:10px;
+    height:20px;line-height: 20px;width:230px;text-indent: 1em;
+}
+.name:hover{
+    background: #eee;
+}
+.detail-nav{
+    margin-top: 30px;
+}
+.left-div{
+    float: left;width:400px;height:450px;padding:100px 50px;
+    background: #eee;
+}
+.left-div img{
+    width:300px;height:300px;
+}
+.right-div{
+    float:left;width:600px;height: 450px;
+    background: #ddd;padding-left:50px;
+}
+
+/*ditail*/
+.detail-name{
+    margin-top: 150px;height: 40px;
+    line-height:40px;font: 20px "microsoft yahei",simsun;
+}
+.detail-price{
+    height:30px;line-height: 30px;
+    
+}
+.detail-promot{
+    height:30px;line-height: 30px;
+}
+.detail-btn{
+    margin-top:100px;
+}
+.price-input{
+    width:70px;
+}
+
+/*cart*/
+.wrap-rows-top{
+    margin-top: 40px;
+    border-bottom:1px #ccc solid;
+}
+.wrap-rows{
+    width:1000px;height: 100px;line-height: 100px;margin:0;
+    border-bottom:1px #eee solid;
+}
+.wrap-rows:hover{
+    background: #eee;
+}
+.col-num{
+   width:80px;
+}
+.promot-show{
+    height: 40px;line-height: 40px;
+}
+.price-total{
+    text-align: right;
+}

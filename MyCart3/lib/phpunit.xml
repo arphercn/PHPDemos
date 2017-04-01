@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="Db">
+      <file>tests/Db2Test.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
